@@ -4,15 +4,12 @@ import Footer from '../shared/components/container/footer.js'
 import Navigation from '../shared/components/Navigation/'
 import Main from '../shared/components/Container/Main.js';
 import Header from '../shared/components/Container/Header.js';
-import head_home from '../public/img/head/head_home.jpg';
-import Image from 'next/image';
 import {css} from '@emotion/react';
 import Article from '../shared/components/Container/article.js';
 
 export default function Home() {
   const router=useRouter();
-  const imgh='../public/img/head/head_home.jpg';
-  console.log(head_home);
+  const head_home='./img/head/head_home.jpg';
   return (
     <div >
       <Head>

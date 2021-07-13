@@ -5,8 +5,6 @@ import Navigation from '../../shared/components/Navigation/';
 import Main from '../../shared/components/Container/Main.js';
 import Header from '../../shared/components/Container/Header.js';
 import Article from '../../shared/components/Container/article.js';
-import head_world from '../../public/img/head/head_world.jpg';
-import Image from 'next/image';
 import {css} from '@emotion/react';
 import styled from '@emotion/styled';
 const style=css`
@@ -22,7 +20,7 @@ border-radius: 1rem;
 border:4px #000 solid;
 `;
 const Contact=()=>{
-    
+    const head_world ='./img/head/head_world.jpg';
     const img_src='../img/head/head_home.png';
     const img_alt="聯絡我們";
     const href='/';
