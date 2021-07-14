@@ -9,7 +9,7 @@ import Article from '../shared/components/Container/article.js';
 
 export default function Home() {
   const router=useRouter();
-  const img_path='https://github.com/joe888777/ChlorellaStudio/tree/main/public/';
+  const img_path='https://joe888777.github.io/ChlorellaStudio/';
   const head_home=img_path+'img/head/head_home.jpg';
   return (
     <div >

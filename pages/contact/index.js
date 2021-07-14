@@ -32,7 +32,7 @@ width:100%;
 }
 `;
 const Contact=()=>{
-    const img_path='https://github.com/joe888777/ChlorellaStudio/tree/main/public/';
+    const img_path='https://joe888777.github.io/ChlorellaStudio/';
     const email = img_path+'img/email.png';
     const fb = img_path+'img/facebook.png';
     const twitter = img_path+'img/twitter.png';
