@@ -76,13 +76,14 @@ const icon_style=css`
     background:#fff;
 `;
 const Navigation=()=>{
+    const img_path='https://github.com/joe888777/ChlorellaStudio/tree/main/public/';
     const home='/';
     const contact='/contact';
     const game='/game';
-    const twitter_icon='./twitter.png';
-    const discord_icon='./discord.png';
-    const fb_icon='./facebook.png';
-    const logo='./logo.png';
+    const twitter_icon=img_path+'img/twitter.png';
+    const discord_icon=img_path+'img/discord.png';
+    const fb_icon=img_path+'img/facebook.png';
+    const logo=img_path+'img/logo.png';
     return(
         <div css={css`background:#000;`}>
             <div css={style}>

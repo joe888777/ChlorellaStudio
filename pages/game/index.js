@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import {useRouter} from 'next/router';
 import Footer from '../../shared/components/container/footer.js'
-import Navigation from '../../shared/components/Navigation/';
-import Main from '../../shared/components/Container/Main.js';
-import Header from '../../shared/components/Container/Header.js';
+import Navigation from '../../shared/components/navigation';
+import Main from '../../shared/components/Container/main.js';
+import Header from '../../shared/components/container/header.js';
 import Article from '../../shared/components/Container/article.js';
 import {css} from '@emotion/react';
 import styled from '@emotion/styled';
@@ -20,8 +20,8 @@ border-radius: 1rem;
 border:4px #000 solid;
 `;
 const Contact=()=>{
-    const head_world ='./img/head/head_world.jpg';
-    const img_src='../img/head/head_home.png';
+    const head_world ='./ChorellaStudio/img/head/head_world.jpg';
+    const img_src='./ChorellaStudio/img/head/head_home.png';
     const img_alt="聯絡我們";
     const href='/';
     return (

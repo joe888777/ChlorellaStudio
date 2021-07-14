@@ -1,15 +1,16 @@
 import Head from 'next/head';
 import {useRouter} from 'next/router';
 import Footer from '../shared/components/container/footer.js'
-import Navigation from '../shared/components/Navigation/'
-import Main from '../shared/components/Container/Main.js';
-import Header from '../shared/components/Container/Header.js';
+import Navigation from '../shared/components/navigation'
+import Main from '../shared/components/Container/main.js';
+import Header from '../shared/components/container/header.js';
 import {css} from '@emotion/react';
 import Article from '../shared/components/Container/article.js';
 
 export default function Home() {
   const router=useRouter();
-  const head_home='./img/head/head_home.jpg';
+  const img_path='https://github.com/joe888777/ChlorellaStudio/tree/main/public/';
+  const head_home=img_path+'img/head/head_home.jpg';
   return (
     <div >
       <Head>

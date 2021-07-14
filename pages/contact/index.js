@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Footer from '../../shared/components/container/footer.js'
-import Navigation from '../../shared/components/Navigation/';
-import Main from '../../shared/components/Container/Main.js';
-import Header from '../../shared/components/Container/Header.js';
+import Navigation from '../../shared/components/navigation';
+import Main from '../../shared/components/Container/main.js';
+import Header from '../../shared/components/container/header.js';
 import Article from '../../shared/components/Container/article.js';
 import {css} from '@emotion/react';
 import styled from '@emotion/styled';
@@ -32,13 +32,12 @@ width:100%;
 }
 `;
 const Contact=()=>{
-    const email = './email.png';
-    const fb = './facebook.png';
-    const twitter = './twitter.png';
-    const discord = './discord.png';
-    const  head_home = './img/head/head_home.jpg';
-    const img_src='../img/head/head_home.png';
-    const img_alt="聯絡我們";
+    const img_path='https://github.com/joe888777/ChlorellaStudio/tree/main/public/';
+    const email = img_path+'img/email.png';
+    const fb = img_path+'img/facebook.png';
+    const twitter = img_path+'img/twitter.png';
+    const discord =img_path+'/img/discord.png';
+    const  head_home = img_path+'img/head/head_home.jpg';
     const href='/';
     return (
         <div >

@@ -19,8 +19,9 @@ const img_style=css`
     height:auto;
 `;
 const Download=()=>{
-    const download_apple ='./appledownload.svg';
-    const download_googleplay ='./googleplay.png';
+    const img_path='https://github.com/joe888777/ChlorellaStudio/tree/main/public/';
+    const download_apple =img_path+'img/appledownload.svg';
+    const download_googleplay =img_path+'img/googleplay.png';
     return(
         
         <div css={style}>
