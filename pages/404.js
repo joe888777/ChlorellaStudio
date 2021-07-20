@@ -7,7 +7,7 @@ import Header from '../shared/components/container/header.js';
 import {css} from '@emotion/react';
 import Article from '../shared/components/Container/article.js';
 
-export default function Home() {
+export default function Custom404() {
   const router=useRouter();
   const img_path='https://joe888777.github.io/ChlorellaGameStudio/';
   const head_home=img_path+'img/head/head_home.jpg';

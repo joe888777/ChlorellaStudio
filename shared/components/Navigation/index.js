@@ -76,7 +76,7 @@ const icon_style=css`
     background:#fff;
 `;
 const Navigation=()=>{
-    const img_path='https://joe888777.github.io//ChlorellaStudio/';
+    const img_path='https://joe888777.github.io/ChlorellaGameStudio/';
     const home='/';
     const contact='/contact';
     const game='/game';

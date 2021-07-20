@@ -20,8 +20,8 @@ border-radius: 1rem;
 border:4px #000 solid;
 `;
 const Contact=()=>{
-    const head_world ='./ChorellaStudio/img/head/head_world.jpg';
-    const img_src='./ChorellaStudio/img/head/head_home.png';
+    const head_world ='https://joe888777.github.io/ChlorellaGameStudio/img/head/head_world.jpg';
+    const img_src='https://joe888777.github.io/ChorellaGameStudio/img/head/head_home.png';
     const img_alt="聯絡我們";
     const href='/';
     return (

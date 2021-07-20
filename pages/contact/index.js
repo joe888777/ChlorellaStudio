@@ -32,7 +32,7 @@ width:100%;
 }
 `;
 const Contact=()=>{
-    const img_path='https://joe888777.github.io/ChlorellaStudio/';
+    const img_path='https://joe888777.github.io/ChlorellaGameStudio/';
     const email = img_path+'img/email.png';
     const fb = img_path+'img/facebook.png';
     const twitter = img_path+'img/twitter.png';
@@ -54,30 +54,30 @@ const Contact=()=>{
               <Article content={
                 <ul css={style}>
                     <li>
-                        <a href="mailto:chlorella456@gmail.com">
+                        <a href="mailto:chlorella456@gmail.com" title={'chlorella456@gmail.com'}>
                             <ContactIcon>
-                                <img src={email}/>
+                                <img src={email} alt={'email'} />
                             </ContactIcon>  
                         </a>
                     </li>
                     <li>
                         <a href="https://www.facebook.com/%E7%95%B0%E6%98%9F%E6%8E%A2%E7%B4%A2%E8%80%85-101549205438251">
                             <ContactIcon>
-                                <img src={fb}/>
+                                <img src={fb} alt={'facebook'}/>
                             </ContactIcon>
                         </a>
                     </li>
                     <li>
                       <a href="https://twitter.com/ChlorellaGame">
                         <ContactIcon>
-                            <img src={twitter}/>
+                            <img src={twitter} alt={'twitter'}/>
                         </ContactIcon>
                         </a>
                     </li>
                     <li>
                         <a href="https://discord.com/invite/Vm2hm8PYG7">
                             <ContactIcon>
-                                <img src={discord}/>
+                                <img src={discord} alt={'discord'}/>
                             </ContactIcon>
                         </a>
                     </li>
