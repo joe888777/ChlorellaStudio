@@ -6,7 +6,16 @@ import Main from '../shared/components/Container/main.js';
 import Header from '../shared/components/container/header.js';
 import {css} from '@emotion/react';
 import Article from '../shared/components/Container/article.js';
-
+import SEO from '../shared/seo';
+const SEOConfig = {
+  title: '綠球藻遊戲工作室 | 異星探索者-Chlrella Game Studio | The Explorer Of Aliens',
+  description: '綠球藻遊戲工作室，致力於開發簡單好玩有內容的手遊。 Chlorella Game Studio for create fun game to make people enjoy in.',
+  keywords: '手遊,RPG,mobile game,The Explorer of Aliens',
+  author: '綠球藻遊戲工作室',
+  copyright: '綠球藻遊戲工作室',
+  imgLink: 'https://joe888777.github.io/ChlorellaGameStudio/img/logo.png',
+  link: 'https://joezz.tw',
+};
 export default function Home() {
   const router=useRouter();
   const img_path='https://joe888777.github.io/ChlorellaGameStudio/';
@@ -16,7 +25,8 @@ export default function Home() {
       <Head>
         <title>綠球藻遊戲工作室</title>
         <meta name="description" content="綠球藻遊戲工作室" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="https://joe888777.github.io/ChlorellaGameStudio/img/logo.png" />
+        <SEO config={SEOConfig} />
       </Head>
       <Navigation/>
       <Header img_src={head_home} img_alt={`首頁`}/>
