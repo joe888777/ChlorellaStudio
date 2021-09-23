@@ -14,7 +14,7 @@ const SEOConfig = {
   author: '綠球藻遊戲工作室',
   copyright: '綠球藻遊戲工作室',
   imgLink: 'https://joe888777.github.io/ChlorellaGameStudio/img/logo.png',
-  link: 'https://joezz.tw',
+  link: '',
 };
 export default function Home() {
   const router=useRouter();

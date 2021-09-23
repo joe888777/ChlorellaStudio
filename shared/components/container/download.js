@@ -21,7 +21,11 @@ const img_style=css`
 const Download=()=>{
     const img_path='https://joe888777.github.io//ChlorellaGameStudio/';
     const download_apple =img_path+'img/appledownload.svg';
+<<<<<<< HEAD
     const download_googleplay =img_path+'img/googleplay.png';
+=======
+    const download_googleplay =img_path+'./img/googleplay.png';
+>>>>>>> cf854969b1a9055ef560d0401e971067ff082da2
     return(
         
         <div css={style}>
